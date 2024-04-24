@@ -13,16 +13,16 @@
 }
 .dark-mode {
 
-	--primary-100:#6A00FF;
-    --primary-200:#a64aff;
-    --primary-300:#ffb1ff;
-    --accent-100:#00E5FF;
-    --accent-200:#00829b;
+	--primary-100:#1A1359;
+    --primary-200:#4b3a87;
+    --primary-300:#ab93ea;
+    --accent-100:#2C2A4A;
+    --accent-200:#b3aed6;
     --text-100:#FFFFFF;
     --text-200:#e0e0e0;
-    --bg-100:#1A1A1A;
-    --bg-200:#292929;
-    --bg-300:#404040;
+    --bg-100:#0F0A3C;
+    --bg-200:#21194d;
+    --bg-300:#3b3067;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: tahoma; }
 body { background: var(--bg-100); background-position: center center; }
@@ -233,6 +233,6 @@ body { background: var(--bg-100); background-position: center center; }
     justify-content: space-around;
 }
 .footer .container .links { width: 100%; display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; }
-.footer .container .links a { text-decoration: none; color: var(--accent-100); font-size: 15px; margin-right: 30px; }
+.footer .container .links a { text-decoration: none; color: var(--accent-200); font-size: 15px; margin-right: 30px; }
 .visible { display: flex; z-index: 10000000; }
 .invisible { display: none; }
