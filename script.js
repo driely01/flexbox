@@ -7,9 +7,16 @@ toggleBtn.addEventListener('click', () => {
 });
 
 const sideBar = document.querySelector('.side-bar');
+const closeMenu = document.querySelector('.close-menu');
 document.querySelector('.menu').addEventListener('click', () => {
 	sideBar.classList.toggle('visible');
 	console.log( sideBar.classList.value );
 	document.getElementById('logo').classList.toggle('invisible');
-	console.log('hello');
+	closeMenu.style.display = 'block';
+});
+
+closeMenu.addEventListener('click', () => {
+
+	sideBar.classList.remove('visible');
+	closeMenu.style.display = 'none';
 });
